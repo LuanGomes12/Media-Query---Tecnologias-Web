@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media (min-width:0px) and (max-width:480px){
+    #div1{
+        background-color: rgb(93, 206, 111);
+    }
+    div{
+        height: 100vh;
+    }
+}
+@media (min-width:769px) and (max-width:1279px){
+    #div1{
+        background-color: rgb(93, 206, 111);
+    }
+    #div2{
+        background-color: rgb(20, 114, 255);
+    }
+    div{
+        height: 50vh;
+    }
+}
+@media (min-width:1280px){
+    #div1{
+        background-color: rgb(93, 206, 111);
+    }
+    #div2{
+        background-color: rgb(20, 114, 255);
+    }
+    #div3{
+        background-color: rgb(195, 99, 214);
+    }
+    #div4{
+        background-color: rgb(93, 206, 111);
+    }
+    #div5{
+        background-color: rgb(20, 114, 255);
+    }
+    div{
+        height: 20vh;
+    }
+}

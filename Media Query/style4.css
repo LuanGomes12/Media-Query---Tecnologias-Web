@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.botoes {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.botoes button {
+  background-color: #e5e5e5;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  border: none;
+}
+
+.texto {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  text-align: justify;
+}
+
+.imagem {
+  float: left;
+  width: 250px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+.imagem img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 769px) {
+    .botoes, .texto, .imagem {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+    img{
+        display: none;
+    }
+}

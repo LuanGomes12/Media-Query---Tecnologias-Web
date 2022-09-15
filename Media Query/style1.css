@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 100%;
+    height: 100px;
+}
+@media (min-width:320px) and (max-width:479px){
+    div{
+        background-color: black;
+    }
+}
+@media (min-width:480px) and (max-width:599px){
+    div{
+        background-color: rgb(108, 191, 247);
+    }
+}
+@media (min-width:600px) and (max-width:767px){
+    div{
+        background-color: rgb(169, 250, 189);
+    }
+}
+@media (min-width:768px) and (max-width:799px){
+    div{
+        background-color: rgb(245, 243, 128);
+    }
+}
+@media (min-width:800px) and (max-width:1023px){
+    div{
+        background-color: brown;
+    }
+}
+@media (min-width:1024px) and (max-width:1279px){
+    div{
+        background-color: rgb(14, 30, 253);
+    }
+}
+@media (min-width:1280px) and (max-width:1439px){
+    div{
+        background-color: rgb(11, 102, 3);
+    }
+}
+@media (min-width:1440px){
+    div{
+        background-color: rgb(250, 14, 14);
+    }
+}
